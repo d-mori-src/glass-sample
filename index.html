@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            background: #F5F5F5;
+        }
+        ul li {
+            list-style: none;
+        }
+        .hero {
+            width: 100%;
+            height: 700px;
+            background-image: url(./back.jpg);
+            background-size: cover;
+            background-repeat: no-repeat;
+        }
+        .glass {
+            color: #333;
+            width: 1000px;
+            height: auto;
+            margin: 0 auto -260px;
+            padding: 120px 140px;
+            border-radius: 6px;
+            backdrop-filter: blur(10px);
+            background-color: rgba(255,255,255, 0.5);
+            filter: drop-shadow(0 0 10px rgba(0,0,0,0.1));
+            border: 1px rgba(255,255,255,0.2) solid;
+            border-bottom: 1px rgba(40,40,40,0.2) solid;
+            border-right: 1px rgba(40,40,40,0.2) solid;
+            gap: 20px;
+            position: relative;
+            top: -260px;
+        }
+        .glass .items .item {
+            margin: 0 0 40px 0;
+        }
+        .glass .items .item:last-child {
+            margin: 0;
+        }
+        .glass .items .item h3 {
+            font-size: 24px;
+            margin: 0 0 32px 0;
+        }
+        .glass .items .item p,
+        .glass .items .item ul li {
+            text-align: justify;
+            font-size: 16px;
+            line-height: 2;
+            color: #333;
+        }
+    </style>
+</head>
+<body>
+    <main>
+        <section class="hero"></section>
+        <section class="glass">
+            <ul class="items">
+                <li class="item">
+                    <h3>グラスモーフィズムとは</h3>
+                    <p>グラスモーフィズムとは、2020年ごろからデザイントレンドとして注目されているWebデザインの新しいデザインスタイルのことで、すりガラスを重ねたような質感の、ぼかした半透明の背景が特長です。立体と現実的な陰影が組み合わさったデザインである「ニューモーフィズム」の次に流行ると推測されていました。</p>
+                </li>
+                <li class="item">
+                    <h3>メリット</h3>
+                    <ul>
+                        <li><span>・</span>涼しげで透明感のある印象</li>
+                        <li><span>・</span>自然な奥行き</li>
+                        <li><span>・</span>立体感の表現でUIを向上</li>
+                        <li><span>・</span>トレンド感あり</li>
+                    </ul>
+                </li>
+                <li class="item">
+                    <h3>デメリット</h3>
+                    <ul>
+                        <li><span>・</span>視認性を損なわないようデザインに注意が必要</li>
+                        <li><span>・</span>一部のブラウザで非対応</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+    </main>
+</body>
+</html>
